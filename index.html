@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>WEBSITE PPLG</h1>
+        <P>Pengembangan Perangkat Lunak dan Gim</P>
+    </header>
+
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#materi">Materi</a>
+        <a href="#data">Data</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <main>
+        <section id="beranda">
+            <h2>Selamat Datang</h2>
+            <hr>
+            <p>Selamat datang di website pembelajaran Pengembangan Perangkat Lunak dan Gim</p>
+            <a href="#" class="tombol">Pelajari Materi</a>
+        </section>
+
+        <section id="tentang">
+            <h2>Tentang PPLG</h2>
+            <hr>
+            <h3>Apa itu PPLG?</h3>
+            <p>PPLG merupakan bidang yang mempelajari pengembangan perangkat, website, aplikasi, jaringan, dan gim.</p>
+            <img src="Gambar/gambartiara.jpg">
+            <p>Gambar  kegiatan pengembangan perangkat lunak.</p>
+        </section>
+
+        <section id="materi">
+            <h2>Materi Pembelajaran</h2>
+            <hr>
+            <section class="kotak">
+            <article class="materi">
+                <h3>HTML</h3>
+                <p>HTML digunakan untuk membuat struktur halaman website</p>
+                <a href="#" class="tombol">Pelajari</a>
+            </article>
+
+            <article class="materi">
+                <h3>CSS</h3>
+                <p>CSS digunakan untuk mengatur tampilan dan desain website.</p>
+                <a href="#" class="tombol">Pelajari</a>
+            </article>
+
+            <article class="materi">
+                <h3>JavaScript</h3>
+                <p>JavaScript digunakan untuk membuat website interaktif.</p>
+                <a href="#" class="tombol">Pelajari</a>
+            </article>
+            </section>
+        </section>
+
+        <section>
+            <article>
+                <h2>Kompetensi Keahlian</h2>
+                <hr>
+                <h3>Materi yang Dipelajari</h3>
+                <ul>
+                    <li>HTML dan CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP dan Database</li>
+                    <li>Pemrograman dan Berorientasi objek</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Urutan Membuat Website</h3>
+                <ol>
+                    <li>Membuat struktur HTML</li>
+                    <li>Membuat desain CSS</li>
+                    <li>Menambahkan JavaScript</li>
+                    <li>Melakukan Pengujian</li>
+                </ol>
+            </article>
+
+            <article>
+                <dl>
+                <dt>HTML merupakan <b>bahasa markup</b>, bukan pemrograman. <i>HTML berfungsi menyusun konten website.</i></dt>
+                <dd>Belajar pemrograman dimulai dari memahami struktur dan logika</dd>
+                <p>Contoh kode: <small>h1, p,</small> dan <small>section.</small></p>
+                </dl>     
+            </article>
+        </section>
+
+        <section id="data">
+            <h2>Data siswa PPLG</h2>
+            <hr>
+            <p id="tengah">Contoh Data Siswa</p>
+            <table border="1">
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Kelas</th>
+                    <th>Kompetensi</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Andi</td>
+                    <td>XI PPLG</td>
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Budi</td>
+                    <td>XI PPLG</td>
+                    <td>CSS</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Tiara</td>
+                    <td>XI PPLG</td>
+                    <td>HTML dan CSS</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Jumlah Siswa:</td>
+                    <td>3 Orang</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="kontak">
+            <h2>Formulir Kontak</h2>
+            <hr>
+            <form action="" method="post">
+                Nama Lengkap:<br>
+                <input type="text"><br><br>
+                Email:<br>
+                <input type="text"><br><br>
+                Kelas: <br>
+                <select>
+                    <option value="X PPLG 1">X PPLG 1</option>
+                    <option value="X PPLG 2">X PPLG 2</option>
+                    <option value="X PPLG 3">X PPLG 3</option>
+                    <option value="X PPLG 4">X PPLG 4</option>
+                </select><br><br>
+                Pesan: <br>
+                <textarea name="Pesan" id="Pesan"></textarea><br><br>
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+    </main>
+<footer>
+    <p id="tengah"><i>Program keahlian PPLG SMK - Indonesia</i></p>
+    <p>&copy; 2026 Website Pembelajaran PPLG</p>
+    <p id="tengah"><small>Dibuat untuk pembelajaran HTML dan CSS</small></p>
+</footer>
+</body>
+</html>
